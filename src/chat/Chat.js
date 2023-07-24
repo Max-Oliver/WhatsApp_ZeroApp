@@ -57,11 +57,11 @@ function Chat() {
   const defineImgToEnterprises = (messageName) => {
     switch (messageName) {
       case "Art Experience":
-        return "https://tse4.mm.bing.net/th?id=OIP.OV7RjYeNKemZctX8j5FYPQAAAA&pid=Api&P=0&w=300&h=300";
+        return "https://i.ibb.co/tX6fWBw/art-logo.jpg";
         break;
 
       case "Cyber Manager":
-        return "https://scontent.fmvd1-1.fna.fbcdn.net/v/t1.0-9/51672218_2069086196502228_3916883399402323968_n.jpg?_nc_cat=106&_nc_sid=85a577&_nc_ohc=OmfK41LvKAUAX85Da9r&_nc_oc=AQlX3LSZuhKpAyY3EhQP6rieao0BMK4EkitFLAcGXcGNOWOJTIX16yOEx8RDSyWxKQY&_nc_ht=scontent.fmvd1-1.fna&oh=f38c8c9a8ad7748a9dafec29a119beab&oe=5F65E4AE";
+        return "https://i.ibb.co/yFBK42F/cyber-manager.jpg";
         break;
 
       case "Zero By One":
@@ -69,7 +69,7 @@ function Chat() {
         break;
 
       default:
-        return `https://avatars.dicebear.com/api/human/${seed}.svg`;
+        return `https://api.dicebear.com/6.x/adventurer/svg?seed=${seed}`;
         break;
     }
   };
